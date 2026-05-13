@@ -1,0 +1,476 @@
+Netlist
+
+Exported from UPDATED-PCB.sch at 5/2/2026 4:03 PM
+
+EAGLE Version 9.7.0 Copyright (c) 1988-2026 Autodesk, Inc.
+
+Net                 Part     Pad      Pin        Sheet
+
+BOOT                R6       1        1          1
+                    U1       4        !BOOT      1
+                    U3       77       PA15       1
+
+FGND                C7       1        1          1
+                    L3       2        2          1
+
+GND                 BOOT     1        NC         1
+                    C1       2        2          1
+                    C10      1        1          1
+                    C11      1        1          1
+                    C12      1        1          1
+                    C13      1        1          1
+                    C14      1        1          1
+                    C15      1        1          1
+                    C2       2        2          1
+                    C21      2        2          1
+                    C22      2        2          1
+                    C23      1        1          1
+                    C27      1        1          1
+                    C28      1        1          1
+                    C29      2        2          1
+                    C2A      2        2          1
+                    C2B      2        2          1
+                    C3       2        2          1
+                    C30      2        2          1
+                    C31      2        2          1
+                    C32      1        1          1
+                    C35      1        1          1
+                    C36      1        1          1
+                    C37      2        2          1
+                    C38      2        2          1
+                    C39      1        1          1
+                    C4       2        2          1
+                    C40      1        1          1
+                    C5       2        2          1
+                    C6       2        2          1
+                    C8       1        1          1
+                    C9       1        1          1
+                    JP4      10       10         1
+                    JP4      2        2          1
+                    JP4      4        4          1
+                    JP4      6        6          1
+                    JP4      8        8          1
+                    JP5      10       10         1
+                    JP5      2        2          1
+                    JP5      4        4          1
+                    JP5      6        6          1
+                    JP5      8        8          1
+                    JP6      10       10         1
+                    JP6      2        2          1
+                    JP6      4        4          1
+                    JP6      6        6          1
+                    JP6      8        8          1
+                    L3       1        1          1
+                    LORA     5        5          1
+                    PWM-IN   2        2          1
+                    PWM-IN   4        4          1
+                    PWM-IN   6        6          1
+                    PWM-IN   8        8          1
+                    PWM-OUT  2        2          1
+                    PWM-OUT  4        4          1
+                    PWM-OUT  6        6          1
+                    PWM-OUT  8        8          1
+                    R12      1        1          1
+                    R15      1        1          1
+                    R4       1        1          1
+                    RST      3        NO         1
+                    SWD      3        3          1
+                    TP2      TP       TP         1
+                    U$11     P$1      P$1        1
+                    U$3      P$1      P$1        1
+                    U$5      P$1      P$1        1
+                    U$7      P$1      P$1        1
+                    U$9      P$1      P$1        1
+                    U1       2        GND        1
+                    U1       25       GNDIO      1
+                    U1       5        PS1        1
+                    U1       6        PS0/WAKE   1
+                    U2       2        GND        1
+                    U3       10       VSS_2      1
+                    U3       19       VSSA       1
+                    U3       26       VSS_3      1
+                    U3       49       VSS_4      1
+                    U3       74       VSS_5      1
+                    U3       99       VSS        1
+                    U33      2        GND        1
+                    U4       3        VSS_2      1
+                    U4       5        SDO        1
+                    U4       8        VSS_3      1
+                    U4       9        VSS        1
+                    U5       4        GND        1
+
+MONITORING          C37      1        1          1
+                    R9       2        2          1
+                    U3       15       PC0        1
+
+N$1                 C15      2        2          1
+                    U1       9        CAP        1
+
+N$3                 C10      2        2          1
+                    C8       2        2          1
+                    C9       2        2          1
+                    L2       1        1          1
+                    LORA     1        1          1
+
+N$4                 C34      2        2          1
+                    U5       6        BST        1
+
+N$6                 R4       2        2          1
+                    U1       17       SA0/H_MOSI 1
+
+N$9                 C33      1        1          1
+                    R11      1        1          1
+                    R12      2        2          1
+                    U5       1        FB         1
+
+N$18                C1       1        1          1
+                    CRYSTAL  P$3      P$3        1
+                    U3       12       PH0-OSC_IN 1
+
+N$21                C2       1        1          1
+                    CRYSTAL  P$1      P$1        1
+                    U3       13       PH1-OSC_OUT 1
+
+N$23                C4       1        1          1
+                    U3       48       VCAP1      1
+
+N$24                C5       1        1          1
+                    U3       73       VCAP2      1
+
+N$25                R10      1        1          1
+                    U3       94       BOOT0      1
+
+N$26                BOOT     C        COM        1
+                    R10      2        2          1
+
+N$31                R14      1        1          1
+                    R15      2        2          1
+                    R9       1        1          1
+
+NRESET              C31      1        1          1
+                    LORA     2        2          1
+                    R1       2        2          1
+                    RST      C        COM        1
+                    SWD      5        5          1
+                    U1       11       !RST       1
+                    U3       14       NRST       1
+
+PA0                 PWM-IN   1        1          1
+                    U3       22       PA0-WKUP   1
+
+PA1                 U$12     1        1          1
+                    U3       23       PA1        1
+
+PA2                 U$12     2        2          1
+                    U3       24       PA2        1
+
+PA3                 U$12     3        3          1
+                    U3       25       PA3        1
+
+PA4                 JP2      1        1          1
+                    U3       28       PA4        1
+
+PA5                 PWM-IN   3        3          1
+                    U3       29       PA5        1
+
+PA6                 PWM-IN   5        5          1
+                    U3       30       PA6        1
+
+PA7                 JP2      2        2          1
+                    U3       31       PA7        1
+
+PA8                 JP1      14       14         1
+                    U3       67       PA8        1
+
+PA9                 JP1      15       15         1
+                    U3       68       PA9        1
+
+PA10                JP1      16       16         1
+                    U3       69       PA10       1
+
+PA11                U$14     2        2          1
+                    U3       70       PA11       1
+
+PA12                U$14     1        1          1
+                    U3       71       PA12       1
+
+PB0                 JP2      5        5          1
+                    U3       34       PB0        1
+
+PB1                 JP2      6        6          1
+                    U3       35       PB1        1
+
+PB2                 JP2      7        7          1
+                    U3       36       PB2        1
+
+PB5                 JP3      2        2          1
+                    U3       91       PB5        1
+
+PB6                 JP3      1        1          1
+                    U3       92       PB6        1
+
+PB12                JP1      1        1          1
+                    U3       51       PB12       1
+
+PB13                JP1      2        2          1
+                    U3       52       PB13       1
+
+PB13_2              JP2      14       14         1
+                    U3       43       PB13_2     1
+
+PB14                JP1      3        3          1
+                    U3       53       PB14       1
+
+PB14_2              JP2      15       15         1
+                    U3       44       PB14_2     1
+
+PB15                PWM-OUT  7        7          1
+                    U3       54       PB15       1
+
+PC1                 U$13     1        1          1
+                    U3       16       PC1        1
+
+PC2                 U$13     2        2          1
+                    U3       17       PC2        1
+
+PC3                 U$13     3        3          1
+                    U3       18       PC3        1
+
+PC4                 JP2      3        3          1
+                    U3       32       PC4        1
+
+PC5                 JP2      4        4          1
+                    U3       33       PC5        1
+
+PC6                 PWM-OUT  3        3          1
+                    U3       63       PC6        1
+
+PC7                 JP1      11       11         1
+                    U3       64       PC7        1
+
+PC8                 JP1      12       12         1
+                    U3       65       PC8        1
+
+PC9                 JP1      13       13         1
+                    U3       66       PC9        1
+
+PC10                JP3      13       13         1
+                    U3       78       PC10       1
+
+PC11                JP3      12       12         1
+                    U3       79       PC11       1
+
+PC12                JP3      11       11         1
+                    U3       80       PC12       1
+
+PD0                 INT      TP       TP         1
+                    U1       14       !H_INT     1
+                    U3       81       PD0        1
+
+PD1                 TP1      TP       TP         1
+                    U3       82       PD1        1
+                    U4       7        INT        1
+
+PD2                 JP3      8        8          1
+                    U3       83       PD2        1
+
+PD3                 JP3      7        7          1
+                    U3       84       PD3        1
+
+PD4                 JP3      6        6          1
+                    U3       85       PD4        1
+
+PD5                 JP3      5        5          1
+                    U3       86       PD5        1
+
+PD6                 JP3      4        4          1
+                    U3       87       PD6        1
+
+PD7                 JP3      3        3          1
+                    U3       88       PD7        1
+
+PD8                 JP1      4        4          1
+                    U3       55       PD8        1
+
+PD9                 JP1      5        5          1
+                    U3       56       PD9        1
+
+PD10                JP1      6        6          1
+                    U3       57       PD10       1
+
+PD11                JP1      7        7          1
+                    U3       58       PD11       1
+
+PD12                PWM-IN   7        7          1
+                    U3       59       PD12       1
+
+PD13                JP1      8        8          1
+                    U3       60       PD13       1
+
+PD14                JP1      9        9          1
+                    U3       61       PD14       1
+
+PD15                JP1      10       10         1
+                    U3       62       PD15       1
+
+PE2                 U$1      1        1          1
+                    U3       1        PE2        1
+
+PE3                 U$1      2        2          1
+                    U3       2        PE3        1
+
+PE4                 U$1      3        3          1
+                    U3       3        PE4        1
+
+PE5                 PWM-OUT  5        5          1
+                    U3       4        PE5        1
+
+PE6                 U$1      4        4          1
+                    U3       5        PE6        1
+
+PE7                 JP2      8        8          1
+                    U3       37       PE7        1
+
+PE8                 JP2      9        9          1
+                    U3       38       PE8        1
+
+PE9                 PWM-OUT  1        1          1
+                    U3       39       PE9        1
+
+PE10                JP2      11       11         1
+                    U3       40       PE10       1
+
+PE11                JP2      12       12         1
+                    U3       41       PE11       1
+
+PE12                JP2      13       13         1
+                    U3       42       PE12       1
+
+PE15                JP2      16       16         1
+                    U3       45       PE15       1
+
+RXD                 LORA     4        4          1
+                    U3       97       PE0        1
+
+SCL                 R17      1        1          1
+                    SCL0     TP       TP         1
+                    U1       19       H_SCL/SCK/RX 1
+                    U3       46       PB10       1
+
+SCL1                R8       2        2          1
+                    SCL1     TP       TP         1
+                    U3       95       PB8        1
+                    U4       2        SCK        1
+
+SDA/BNO             R16      1        1          1
+                    SDA0     TP       TP         1
+                    U1       20       H_SDA/H_MISO/TX 1
+                    U3       47       PB11       1
+
+SDA1                R7       2        2          1
+                    SDA1     TP       TP         1
+                    U3       93       PB7        1
+                    U4       4        SDI        1
+
+SW                  C34      1        1          1
+                    L1       2        2          1
+                    U5       5        SW         1
+
+TCK/SWCLK           SWD      2        2          1
+                    U3       76       PA14       1
+
+TDO/SWO             SWD      6        6          1
+                    U3       89       PB3        1
+
+TMS/SWDIO           SWD      4        4          1
+                    U3       72       PA13       1
+
+TXD                 LORA     3        3          1
+                    U3       98       PE1        1
+
+V3P3A               BOOT     3        NO         1
+                    C12      2        2          1
+                    C21      1        1          1
+                    C22      1        1          1
+                    C23      2        2          1
+                    C27      2        2          1
+                    C28      2        2          1
+                    C29      1        1          1
+                    C3       1        1          1
+                    C30      1        1          1
+                    C38      1        1          1
+                    C39      2        2          1
+                    C40      2        2          1
+                    D3       2        A          1
+                    JP4      1        1          1
+                    JP4      3        3          1
+                    JP4      5        5          1
+                    JP4      7        7          1
+                    JP4      9        9          1
+                    R7       1        1          1
+                    R8       1        1          1
+                    SWD      1        1          1
+                    TP3      TP       TP         1
+                    U2       5        OUT        1
+                    U3       100      VDD        1
+                    U3       11       VDD_2      1
+                    U3       20       VREF+      1
+                    U3       21       VDDA       1
+                    U3       27       VDD_3      1
+                    U3       50       VDD_4      1
+                    U3       6        VBAT       1
+                    U3       75       VDD_5      1
+                    U4       1        VDDIO      1
+                    U4       10       VDD        1
+                    U4       6        CSB        1
+
+V3P3B               C13      2        2          1
+                    C14      2        2          1
+                    C36      2        2          1
+                    C7       2        2          1
+                    D2       2        A          1
+                    JP6      1        1          1
+                    JP6      3        3          1
+                    JP6      5        5          1
+                    JP6      7        7          1
+                    JP6      9        9          1
+                    L2       2        2          1
+                    R1       1        1          1
+                    R16      2        2          1
+                    R17      2        2          1
+                    R6       2        2          1
+                    U1       10       CLKSEL0    1
+                    U1       28       VDDIO      1
+                    U1       3        VDD        1
+                    U33      5        OUT        1
+
+V5                  C11      2        2          1
+                    C2A      1        1          1
+                    C2B      1        1          1
+                    C33      2        2          1
+                    C35      2        2          1
+                    D2       1        C          1
+                    D3       1        C          1
+                    JP5      1        1          1
+                    JP5      3        3          1
+                    JP5      5        5          1
+                    JP5      7        7          1
+                    JP5      9        9          1
+                    L1       1        1          1
+                    R11      2        2          1
+                    U2       1        IN         1
+                    U2       3        EN         1
+                    U33      1        IN         1
+                    U33      3        EN         1
+
+V14P8               C32      2        2          1
+                    C6       1        1          1
+                    R14      2        2          1
+                    U$10     P$1      P$1        1
+                    U$2      P$1      P$1        1
+                    U$4      P$1      P$1        1
+                    U$6      P$1      P$1        1
+                    U$8      P$1      P$1        1
+                    U5       2        EN         1
+                    U5       3        VIN        1
+

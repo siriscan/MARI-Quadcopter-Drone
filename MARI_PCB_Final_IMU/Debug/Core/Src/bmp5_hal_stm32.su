@@ -1,0 +1,3 @@
+../Core/Src/bmp5_hal_stm32.c:14:20:bmp5_i2c_read	48	static
+../Core/Src/bmp5_hal_stm32.c:24:20:bmp5_i2c_write	48	static
+../Core/Src/bmp5_hal_stm32.c:34:6:bmp5_delay_us	24	static,ignoring_inline_asm

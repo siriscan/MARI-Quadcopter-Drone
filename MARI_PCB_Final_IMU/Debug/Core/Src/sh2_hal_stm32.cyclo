@@ -1,0 +1,9 @@
+../Core/Src/sh2_hal_stm32.c:20:13:usTimerInit	1
+../Core/Src/sh2_hal_stm32.c:22:17:timeUs	1
+../Core/Src/sh2_hal_stm32.c:28:6:BNO_INTN_OnFalling	2
+../Core/Src/sh2_hal_stm32.c:37:12:hal_open	4
+../Core/Src/sh2_hal_stm32.c:57:13:hal_close	1
+../Core/Src/sh2_hal_stm32.c:59:12:hal_read	6
+../Core/Src/sh2_hal_stm32.c:80:12:hal_write	2
+../Core/Src/sh2_hal_stm32.c:89:17:hal_getTimeUs	1
+../Core/Src/sh2_hal_stm32.c:93:12:sh2_hal_init	1
